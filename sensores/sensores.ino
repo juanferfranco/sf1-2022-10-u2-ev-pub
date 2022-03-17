@@ -141,6 +141,10 @@ void taskSerial() {
       }
     case SerialStates::WAITING_REQUESTS: {
 
+        // La respuesta se debe enviar siguiendo este protocolo:
+        // Enviar la cadena 
+        // estado_UP,estado_DOWN,estado_LEFT,estado_RIGHT
+        // No olvidar enviar el ENTER: \n
 
         break;
       }
