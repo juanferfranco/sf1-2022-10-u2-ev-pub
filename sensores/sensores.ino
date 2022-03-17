@@ -145,6 +145,9 @@ void taskSerial() {
         // Enviar la cadena 
         // estado_UP,estado_DOWN,estado_LEFT,estado_RIGHT
         // No olvidar enviar el ENTER: \n
+        // Ejemplos de posibles respuestas:
+        // "1,1,1,1\n" todos los sensores están relajados
+        // "1,1,1,0\n" todos los sensores están relajados menos RIGHT
 
         break;
       }

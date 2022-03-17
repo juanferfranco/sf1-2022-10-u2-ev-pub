@@ -153,7 +153,13 @@ namespace snakeSensores
             // 1. Inicializa y abre el puerto serial
             while (true)
             {
+
+
                 // 2. Implementa la lógica con tu solución.
+                // El request que debe hacer la aplicación interactiva 
+                // es la cadena "inputs"
+                
+                
                 Thread.Sleep(50);
             }
         }
